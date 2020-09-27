@@ -1,0 +1,33 @@
+<mat-toolbar id="app-header">
+  <div style="flex-grow: 5;">
+    <div class="appLogo">
+      <div id="titleAppLogo"> <a href="/"><span>Savings Calculator</span></a>
+      </div>
+    </div>
+  </div>
+  <br>
+</mat-toolbar>
+<div id="app-content">
+  <router-outlet></router-outlet>
+</div>
+<mat-toolbar id="app-footer">
+  <mat-toolbar-row>
+    <span>Made with </span>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="heart icon"
+      style="margin-left: 5px; height:14px;font-size: 14px;">favorite</mat-icon>
+    <span>by a.dridi (github.com/a-dridi)</span>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <div class="footer-links">
+      <div class="footer-link-element">
+        <a href="#">General Notice</a>
+      </div>
+      <div class="footer-link-element">
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="footer-link-element">
+        <a href="#">Contact</a>
+      </div>
+      </div>
+  </mat-toolbar-row>
+</mat-toolbar>
